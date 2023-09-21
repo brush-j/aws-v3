@@ -20,7 +20,7 @@ jobs:
       - name: Pemission
         run: chmod +x ./gradlew
       - name: Build with Gradle
-        run: ./gradlew clean build -x test
+        run: ./gradlew clean build
 
       # UTC 변경(한국시간 + 9H)
       - name: Get current time
